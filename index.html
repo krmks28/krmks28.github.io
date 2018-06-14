@@ -102,15 +102,23 @@
             </section>
             <!-- My Schedule Part End-->
 
+
+            <!-- My Project End -->
+
             <!--Contact Me Begin-->
             <section>
                 <h1><span>Contact Me</span></h1>
+                <script>
+                 function myFunction() {
+                 alert(`Werkt nog niet, sorry. \nJe kan me altijd via Social Media bereiken.`);
+                }
+                </script>
 
                 <form>
                     <input  name="name" placeholder="Name" type="text" required /><br/>
                     <input  name="email" placeholder="Email" type="email" required /><br/>
                     <textarea name="message" placeholder="Message" type="text" required></textarea>
-                    <input type="submit" value="SEND | Disabled" class="submit" disabled/>
+                    <input onclick="myFunction()" type="submit" value="SEND | Disabled" class="submit" />
                 </form>
             </section>
             <!--Contact Me End-->
