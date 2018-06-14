@@ -47,11 +47,18 @@ section {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-
+#lel {
+  text-align: center;
+  text-decoration: none;
+}
+#lel a {
+  text-decoration: none;
+  color: #000000;
+}
 .header {
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     background-size: cover;
-} 
+}
 
 .header img {
     display: block;
