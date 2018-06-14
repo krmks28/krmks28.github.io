@@ -41,19 +41,26 @@ section {
     border-radius: 10px;
 }
 
-header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-    background-size: cover;
+#section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
-header img {
+.header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+} 
+
+.header img {
     display: block;
     width: 80px;
     height: 80px;
     margin: auto;
 }
 
-header p {
+.header p {
     font-size: 25pt;
     color: #3b464c;
     padding-top: 5px;
@@ -66,27 +73,22 @@ table {
     width: 100%;
     font-size: 11pt;
 }
-
 table, th, td {
     border: 2px solid #cecece;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
 }
-
 form {
     text-align: center;
     margin-top: 0;
 }
-
 .submit:hover {
     background-color: #43a09d;
 }
-
 textarea {
     height: 100px;
 }
-
 input, textarea {
     margin-bottom: 10px;
     font-size: 11pt;
@@ -104,11 +106,9 @@ input, textarea {
     margin-left: 7px;
     margin-right: 7px;
 }
-
 #contacts a {
     text-decoration: none;
 }
-
 #contacts img:hover {
     opacity: 0.8;
 }
